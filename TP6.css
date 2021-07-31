@@ -1,0 +1,241 @@
+html{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#aaa;
+	text-align:center;
+}
+/****************GENERAL***************************/
+#contenu{
+	width:1000px;
+	height:850px;
+	background-color:#888;
+	position: relative;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	font-family:arial;
+}
+
+h1{
+	font-family:script;
+	background-color:#cccccc;
+	line-height:50px;
+
+}
+
+h2{
+	margin-top:0px;
+}
+
+p{
+	margin-top:0px;
+}
+
+/****************<HEADER>***************************/
+header{
+	width:1000px;
+	height:250px;
+	background-image:url("bandeauTitre.jpg");
+}
+
+div #titre1{
+	width:150px;
+	height:100px;
+	position:absolute;
+	top:25px;
+	left:50px;
+}
+/****************<NAV>***************************/
+nav{
+	width:810px;
+	height: 50px;
+	position:relative;
+	margin: 0px auto 0px auto;
+	top: 192px;
+}
+nav ul{
+	font-size:0px;/*Etape I :Pour supprimer le whithespace entre deux inline-block.*/
+	margin: 0px;
+	padding:0px;		
+			
+}
+nav li{
+	display: inline-block;
+	background-color:#8EA2C6;
+	width:160px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:17px; /*Etape II : Redimensionnement de la police, après suppression le whithespace entre deux inline-block.*/
+	border:1px inset #000;
+}
+		
+nav li:hover{			
+	background-color:#003366;
+}		
+				
+nav a{	
+	color: #000000;
+	text-decoration: none;
+	font-weight:bold;
+	display:block;
+}
+		
+nav a:hover{	
+	color: #cccccc;
+}
+/****************<ARTICLE>***************************/
+article{
+	background-color:#ccccdd;
+	width:800px;
+	height:500px;
+}
+
+#ContenuArticle{
+	width:600px;
+	margin-left:40px;
+}
+
+article table{
+	background-color:#ddddee;
+	width:400px;
+	height:20px;
+	text-align:center;
+}
+
+article td{
+	border:1px inset #000;
+	width:100px;
+	height:20px;
+}
+
+article td:hover{
+	background-color:#aaaadd;
+}
+
+.caseEnteteTableau{
+	font-weight:bold;
+}
+
+article li ul{
+	display:none;
+}
+
+article li:hover ul{
+	display:block;
+}
+
+/**Page me contacter**/
+#ConteneurTitreFormulaire{
+	width:400px;
+	text-align:center;
+	position:relative;
+	top:30px;
+	margin: 0px auto 0px auto;
+}
+article #cadreFormulaire{
+	width: 400px;
+	position:relative;
+	margin: 0px auto 0px auto;
+	top:70px;
+	font-weight:bold;
+	}
+		
+	article form label{
+		display:inline-block; 
+		width:100px;
+	}		
+		
+	article form input{
+		display:inline-block;
+		width: 200px;
+	}
+		
+	article #message{
+		display:block;
+		position:relative;
+		margin: 10px auto 0px auto;
+		width: 350px;
+	}
+		
+	article #cadrebutton{
+		width:250px;
+		margin: 10px auto 0px auto;
+			
+		}
+		
+	article button{
+		margin:10px;
+		width:100px;
+		height:60px;
+	}
+
+/****************<ASIDE>***************************/
+
+aside{
+	background-color:#bbbbcc;
+	width:200px;
+	height:500px;
+	border-left: 1px solid #333333;
+	position: absolute;
+	top:250px;
+	right:0px;
+}
+
+
+aside p{
+	font-style:italic;
+	text-align:center;
+}
+
+#ConteneurAsideHaut{
+	width: 200px;
+	height:200px;
+}
+
+aside #logoAside{
+	position:relative;
+	display:block;
+	border:2px solid #002;
+	margin:0px auto 0px auto;
+	top:80px;
+}
+
+#ConteneurAsideBas
+{
+	width: 200px;
+	height:300px;
+}
+
+/****************<FOOTER>***************************/
+footer{
+	background-color:#444455;
+	width:1000px;
+	height:100px;
+}
+footer p{
+	margin:0px;
+	line-height:100px;
+	text-align:center;
+	color: #cccccc;
+}
+
+footer p a{
+	margin:0px;
+	line-height:100px;
+	text-align:center;
+	color: #aaaaaa;
+}
+
+footer p a:hover{
+	margin:0px;
+	line-height:100px;
+	text-align:center;
+	color: #dddddd;
+}
